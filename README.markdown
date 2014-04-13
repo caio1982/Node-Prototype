@@ -12,6 +12,11 @@ Boilerplate project in Node.js for a REST API with Bcrypt authentication and Mon
 - mongoose (mongodb support)
 - mongoose-validator (basic db validations)
 
+Usage
+-----
+
+This is all boilerplate code and should not be used as is. If you still wanna try it, `npm install nodemon` and run it either through `nodemon server.js` or `node server.js` directly. Logs will be saved to `server.log` as well.
+
 TODO
 ----
 
