@@ -1,0 +1,30 @@
+{
+	"private": true,
+	"version": "0.0.0",
+	"name": "Node-Prototype",
+	"description": "Boilerplate project in Node.js for a REST API with encrypted authentication and Mongo support.",
+	"main": "server.js",
+	"dependencies": {
+		"bcrypt": "0.7.7",
+		"express": "3.4.8",
+		"express-load": "1.1.9",
+		"mongoose": "3.8.8",
+		"mongoose-validator": "0.2.2",
+		"passport": "0.2.0",
+		"passport-http": "0.2.2",
+		"winston": "0.7.2"
+		},
+	"scripts": {
+		"test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/caio1982/Node-Prototype.git"
+	},
+	"keywords": [
+		"node.js", "api", "rest", "mvc", "bcrypt", "simple", "boilerplate"
+	],
+	"author": "Caio Begotti",
+	"license": "Public Domain",
+	"readmeFilename": "README.markdown"
+}
