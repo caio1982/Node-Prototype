@@ -15,7 +15,9 @@ Boilerplate project in Node.js for a REST API with Bcrypt authentication and Mon
 Usage
 -----
 
-This is all boilerplate code and should not be used as is. If you still wanna try it, `npm install nodemon` and run it either through `nodemon server.js` or `node server.js` directly. Logs will be saved to `server.log` as well.
+This is all boilerplate code and should not be used as is. If you still wanna try it, run `npm install` to install all the modules needed and then `npm install nodemon` to be able to run it inside a loop.
+
+You can start the server either through `nodemon server.js` or `node server.js` directly. Logs will be saved to `server.log` as well.
 
 TODO
 ----
