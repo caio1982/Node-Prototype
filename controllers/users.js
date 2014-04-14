@@ -81,15 +81,15 @@ exports.delete = function(req, res, next) {
 		if (!user) {
 			log.warn('Record for removal not found: ' + req.params.id);
 			res.json(404);
+		} else {
+			user.remove(function(err) {
+				if (!err) {
+					res.send(204);
+				} else {
+					log.error('Post removal failed: ' + err);
+					res.send(500);
+				}
+			});
 		}
-
-		user.remove(function(err) {
-			if (!err) {
-				res.send(204);
-			} else {
-				log.error('Post removal failed: ' + err);
-				res.send(500);
-			}
-		});
 	});
 };
