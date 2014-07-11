@@ -26,3 +26,6 @@ TODO
 - Jade templates? It's backend code but...
 - Alternative auth strategies for Passport
 - Custom DB validators
+- Node-schedule
+- Micron-throttle
+- Delayed
